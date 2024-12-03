@@ -18,7 +18,7 @@ class Item(BaseModel):
 
 class CreatePayment(BaseModel):
     currency: str = "rub"
-    amount: str
+    amount: float
     uuid: str
     shopId: int
     description: str
