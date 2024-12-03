@@ -8,14 +8,14 @@ def readme():
 
 setup(
   name='mulenpay_api',
-  version='1.0.11',
+  version='1.0.12',
   author='WALLEXFINTECH',
   author_email='platem9@gmail.com',
   description='Прием платежей и выплаты через Mulen Pay',
   long_description=readme(),
   long_description_content_type='text/markdown',
   packages=find_packages(),
-  install_requires=['pydantic==2.9.2', 'httpx==0.27.2'],
+  install_requires=['pydantic', 'httpx'],
   classifiers=[
     'Programming Language :: Python :: 3.11',
     'License :: OSI Approved :: MIT License',
